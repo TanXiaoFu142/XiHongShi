@@ -1,0 +1,32 @@
+server:
+  port: 8001
+wechat:
+  #  微信公众平台的appID
+  appId: 'wx52ead87ab79958e0'
+  #  微信公众平台的appSecret
+  secret: '84bd5d3eaf3552afc3a3558f5a8facdb'
+  #  百度地图开放平台的城市ID 长沙：430100 娄底：431300 上海：310100
+  district_id:
+    - '310100'
+  #  百度地图开放平台的应用AK
+  ak: 'rY9kKg8VOo1qPf7HclEpbLGrY1gVw4Oc'
+  #  纪念日：注意格式yyyy-MM-dd
+  loveDate: '2021-10-23'
+  #  模板ID
+  templateId: 'yieAAwGxjpf-G3OtdbEjOAev78_CyWN4xOGJ1qr_a4k'
+  #  天行数据apiKey
+  rainbowKey: '5a41b3d924a570f7ebeaec23bafec687'
+  #  关注公众号的用户ID（要推送的人的用户ID,在微信公众平台里可以查看到,现在支持推送多个人）
+  userId:
+    - 'o8JFv6SzCRka0-FLuJlRUsiygMYQ'
+    - 'o8JFv6SX5xdUGdKeW5sGnY7Byh9I'
+  #    是否按农历计算生日 true:是 false:否
+  useLunar: true
+
+  #  生日：注意格式yyyy-MM-dd （无论是计算阳历生日还是农历生日,一律填阳历出生年月日）
+user-info:
+  users:
+    - name: '小肖'
+      birthday: '2002-08-16'
+    - name: '小谭'
+      birthday: '2002-05-20'
